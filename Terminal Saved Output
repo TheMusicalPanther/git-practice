@@ -1,0 +1,51 @@
+Last login: Thu Apr 30 12:35:01 on ttys000
+Andrews-MacBook-Pro-3:~ andrewpanter$ mkdir git_practice
+Andrews-MacBook-Pro-3:~ andrewpanter$ cd git_practice
+Andrews-MacBook-Pro-3:git_practice andrewpanter$ git init
+Initialized empty Git repository in /Users/andrewpanter/git_practice/.git/
+Andrews-MacBook-Pro-3:git_practice andrewpanter$ echo "Hello Git and GitHub" >> README.txt
+Andrews-MacBook-Pro-3:git_practice andrewpanter$ git add README.txt
+Andrews-MacBook-Pro-3:git_practice andrewpanter$ git commit -m "First commit"
+[master (root-commit) b26154c] First commit
+ Committer: Andrew Panter <andrewpanter@Andrews-MacBook-Pro-3.local>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 1 insertion(+)
+ create mode 100644 README.txt
+Andrews-MacBook-Pro-3:git_practice andrewpanter$ git config --global user.name TheMusicalPanther
+Andrews-MacBook-Pro-3:git_practice andrewpanter$ git config --global user.email andrewpanter6@gmail.com
+Andrews-MacBook-Pro-3:git_practice andrewpanter$ git commit --amend --reset-author
+hint: Waiting for your editor to close the file... 
+Practice Git
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# On branch master
+#
+# Initial commit
+#
+# Changes to be committed:
+#       new file:   README.txt
+#
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+-- INSERT --
